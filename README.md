@@ -58,16 +58,6 @@ yarn dev
 
 This will start the development server, and your React application will be available at `http://localhost:3000`.
 
-### Build
-
-To build the project for production, run the following command:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
 This will generate optimized production-ready files in the `dist` directory.
 
 ## Project Structure

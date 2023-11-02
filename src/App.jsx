@@ -14,7 +14,7 @@ function App() {
 
   const [searchItem, setSearchItem] = useState('');
   const getMovieRequest = async (searchItem) => {
-    const url = `http://www.omdbapi.com/?apikey=fb61367e&s=${searchItem}`;
+    const url = `https://www.omdbapi.com/?apikey=fb61367e&s=${searchItem}`;
     const response = await fetch(url);
     const responseJson = await response.json();
     if (responseJson.Search) {
@@ -53,7 +53,7 @@ function App() {
        
         
         <MovieListHeading heading="Search Result:"/>
-        <div className="row moviediv">
+        <div className="row moviediv" id="movie">
           <MovieList movies={movies} handleFavouriteClick={addfavouriteMovie} handleDetail={handledetail} />
         </div>
       </div>

@@ -1,6 +1,14 @@
-# React Vite Movie Details App
+# React  Movie Details App
 
-Welcome to the React Vite Movie Details App! This project is a simple application that allows you to search for and view movie details using the OMDB API. Whether you're learning React and Vite or want to explore how to create a movie details app, this project provides a great starting point.
+Welcome to the React Movie Details App! This project is a simple application that allows you to search for and view movie details using the OMDB API. Whether you're learning React and Vite or want to explore how to create a movie details app, this project provides a great starting point.
+
+## Demo Link
+[Website Link](https://6543e87bc2c96e3e6cc27ee5--getflix-movie-list.netlify.app)
+
+## How to Use
+- Search For the series/Movie You want.
+- Click on the Poster to Know details of the Series/Movie.
+- Click on Add to Favourite to Bookmark the Show.
 
 ## Getting Started
 

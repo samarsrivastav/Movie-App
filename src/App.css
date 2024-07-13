@@ -2,9 +2,7 @@
 body{
     font-family: 'Playpen Sans', cursive;
     background-color: #0e1829;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(253.87, 77%, 40%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(252.75, 80%, 19%) 0, transparent 55%);
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
     color:#fff;
 }
 .parent{
@@ -73,7 +71,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 15px;
     padding: 10px;
 }
-#details{
+
+#fav,#details{
     display:none;
     position: fixed;
     left:20%;
@@ -121,4 +120,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 .icon{
     height: 40px;
     width: 40px;
+}
+.carousel-item img{
+    height: 89vh !important;
 }

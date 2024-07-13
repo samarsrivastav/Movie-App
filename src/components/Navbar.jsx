@@ -23,6 +23,7 @@ function Navbar(props) {
                         <form className="d-flex">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" value={props.searchItem} onChange={(e) => props.setSearchItem(e.target.value)} />
                         </form>
+                        <a className="nav-link" href="#favourite"><button className='btn btn-dark'>Search</button></a>
                     </div>
                 </div>
             </nav>

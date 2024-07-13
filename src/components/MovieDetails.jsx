@@ -13,7 +13,7 @@ function MovieDetails(props) {
                         <p>Type: {props.movies.Type} </p>
                         <p>Release Year: {props.movies.Year} </p>
                     </div>
-                    <button class="btn btn-danger col-md-2 close-btn" onClick={() => props.closemodal()}>Close</button>
+                    <button className="btn btn-danger col-md-2 close-btn" onClick={() => props.closemodal()}>Close</button>
                 </div>
             </div>
         </>
